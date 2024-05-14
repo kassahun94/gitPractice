@@ -1,0 +1,70 @@
+.backgroundChange {
+  padding: 20px;
+  display: flex;
+  cursor: pointer;
+}
+
+#yesBackground, #noBackground {
+  padding: 10px;
+  border: 1px solid;
+  margin-left: 20px;
+}
+
+#techCompanies {
+  max-width: 400px;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.blue {
+  background-color: #79a8ff;
+}
+
+.red {
+  background-color: #ff5151;
+}
+
+#submitUserForm {
+  width: 120px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitUserForm:hover {
+  background-color: #1a1936;
+}
+
+#userForm {
+  max-width: 800px;
+  margin: 0 40px;
+  margin-bottom: 30px;
+}
+
+.form-class input[type="text"],
+.form-class input[type="email"] {
+  width: calc(100% - 16px); /* Adjusted width to account for padding and border */
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block; /* Ensuring inputs are displayed as block elements */
+}
+
+.error-message {
+  color: red;
+  display: none; 
+  margin-bottom: 10px;
+}
